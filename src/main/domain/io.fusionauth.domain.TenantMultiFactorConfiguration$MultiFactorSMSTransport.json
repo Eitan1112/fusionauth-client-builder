@@ -4,6 +4,12 @@
   "extends" : [ {
     "type" : "Enableable"
   } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "MultiFactorSMSTransport"
+    } ]
+  } ],
   "fields" : {
     "messengerId" : {
       "type" : "UUID"

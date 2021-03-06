@@ -4,6 +4,12 @@
   "extends" : [ {
     "type" : "Enableable"
   } ],
+  "implements" : [ {
+    "type" : "Buildable",
+    "typeArguments" : [ {
+      "type" : "MultiFactorEmailTransport"
+    } ]
+  } ],
   "fields" : {
     "sendToUnverified" : {
       "type" : "boolean"

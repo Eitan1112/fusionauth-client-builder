@@ -7,7 +7,7 @@
       "type" : "Errors"
     },
     "message" : {
-      "type" : "Message"
+      "type" : "SMSMessage"
     }
   }
 }

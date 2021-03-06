@@ -9,10 +9,16 @@
     } ]
   } ],
   "fields" : {
+    "code" : {
+      "type" : "String"
+    },
     "mobilePhone" : {
       "type" : "String"
     },
     "secret" : {
+      "type" : "String"
+    },
+    "transport" : {
       "type" : "String"
     },
     "userId" : {

@@ -8,6 +8,9 @@
     } ]
   } ],
   "fields" : {
+    "multiFactorConfiguration" : {
+      "type" : "String"
+    },
     "accountEdit" : {
       "type" : "String"
     },

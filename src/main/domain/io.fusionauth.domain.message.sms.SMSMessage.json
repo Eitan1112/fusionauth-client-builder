@@ -4,11 +4,6 @@
   "description" : "/**\n * @author Michael Sleevi\n */\n",
   "implements" : [ {
     "type" : "Message"
-  }, {
-    "type" : "Buildable",
-    "typeArguments" : [ {
-      "type" : "SMSMessage"
-    } ]
   } ],
   "fields" : {
     "phoneNumber" : {
