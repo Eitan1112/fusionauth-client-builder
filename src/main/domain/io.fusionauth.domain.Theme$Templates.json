@@ -8,9 +8,6 @@
     } ]
   } ],
   "fields" : {
-    "multiFactorConfiguration" : {
-      "type" : "String"
-    },
     "accountEdit" : {
       "type" : "String"
     },
@@ -30,6 +27,9 @@
       "type" : "String"
     },
     "index" : {
+      "type" : "String"
+    },
+    "multiFactorConfiguration" : {
       "type" : "String"
     },
     "oauth2Authorize" : {
@@ -65,7 +65,7 @@
     "oauth2TwoFactor" : {
       "type" : "String"
     },
-    "oauth2TwoFactorOptions" : {
+    "oauth2TwoFactorMethods" : {
       "type" : "String"
     },
     "oauth2Wait" : {

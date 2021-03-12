@@ -11,9 +11,6 @@
     } ]
   } ],
   "fields" : {
-    "sendToUnverified" : {
-      "type" : "boolean"
-    },
     "templateId" : {
       "type" : "UUID"
     }
