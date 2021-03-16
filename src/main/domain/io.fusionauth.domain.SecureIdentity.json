@@ -39,30 +39,6 @@
     "salt" : {
       "type" : "String"
     },
-    "twoFactorDelivery" : {
-      "type" : "TwoFactorDelivery"
-    },
-    "twoFactorEnabled" : {
-      "type" : "boolean"
-    },
-    "twoFactorMethods" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "String"
-      } ]
-    },
-    "twoFactorPreferredMethod" : {
-      "type" : "String"
-    },
-    "twoFactorRecoveryCodes" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "String"
-      } ]
-    },
-    "twoFactorSecret" : {
-      "type" : "String"
-    },
     "username" : {
       "type" : "String"
     },

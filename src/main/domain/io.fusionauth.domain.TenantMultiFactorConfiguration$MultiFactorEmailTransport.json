@@ -11,6 +11,9 @@
     } ]
   } ],
   "fields" : {
+    "sendOnLoginWhenPreferred" : {
+      "type" : "boolean"
+    },
     "templateId" : {
       "type" : "UUID"
     }

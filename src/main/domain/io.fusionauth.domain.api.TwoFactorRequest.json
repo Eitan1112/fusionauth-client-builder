@@ -12,8 +12,8 @@
     "code" : {
       "type" : "String"
     },
-    "delivery" : {
-      "type" : "TwoFactorDelivery"
+    "method" : {
+      "type" : "String"
     },
     "secret" : {
       "type" : "String"

@@ -78,6 +78,24 @@
     "timezone" : {
       "type" : "ZoneId"
     },
+    "twoFactorMethods" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "String"
+      } ]
+    },
+    "twoFactorPreferredMethod" : {
+      "type" : "String"
+    },
+    "twoFactorRecoveryCodes" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "String"
+      } ]
+    },
+    "twoFactorSecret" : {
+      "type" : "String"
+    },
     "memberships" : {
       "type" : "List",
       "typeArguments" : [ {

@@ -9,14 +9,14 @@
     } ]
   } ],
   "fields" : {
+    "authenticator" : {
+      "type" : "MultiFactorAuthenticator"
+    },
     "email" : {
       "type" : "MultiFactorEmailTransport"
     },
     "sms" : {
       "type" : "MultiFactorSMSTransport"
-    },
-    "authenticator" : {
-      "type" : "MultiFactorTOTP"
     }
   }
 }
