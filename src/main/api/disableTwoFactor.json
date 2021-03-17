@@ -18,12 +18,22 @@
       "javaType": "UUID"
     },
     {
-      "name": "request",
+      "name": "code",
       "comments": [
-        "The two factor disable request information."
+        "The Two Factor code used verify the the caller knows the Two Factor secret."
       ],
-      "type": "body",
-      "javaType": "TwoFactorRequest"
+      "type": "urlParameter",
+      "parameterName": "code",
+      "javaType": "String"
+    },
+    {
+      "name": "method",
+      "comments": [
+        "The Two Factor method used to verify the code."
+      ],
+      "type": "urlParameter",
+      "parameterName": "method",
+      "javaType": "String"
     }
   ]
 }
