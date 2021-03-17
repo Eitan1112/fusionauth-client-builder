@@ -18,9 +18,6 @@
     "mobilePhone" : {
       "type" : "String"
     },
-    "secret" : {
-      "type" : "String"
-    },
     "userId" : {
       "type" : "UUID"
     }
