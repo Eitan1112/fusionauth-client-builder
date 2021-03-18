@@ -14,7 +14,16 @@
     "accountIndex" : {
       "type" : "String"
     },
-    "multiFactorSend" : {
+    "accountTwoFactorDisable" : {
+      "type" : "String"
+    },
+    "accountTwoFactorEnable" : {
+      "type" : "String"
+    },
+    "accountTwoFactorIndex" : {
+      "type" : "String"
+    },
+    "accountTwoFactorSend" : {
       "type" : "String"
     },
     "emailComplete" : {
@@ -30,12 +39,6 @@
       "type" : "String"
     },
     "index" : {
-      "type" : "String"
-    },
-    "multiFactorConfiguration" : {
-      "type" : "String"
-    },
-    "multiFactorConfirm" : {
       "type" : "String"
     },
     "oauth2Authorize" : {
