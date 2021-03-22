@@ -4,9 +4,7 @@
     "Send a Two Factor authentication code to allow the completion of Two Factor authentication."
   ],
   "method": "post",
-  "methodName": "sendTwoFactorCodeForLogin",
-  "deprecated": "This method has been renamed to {{renamedMethod}}, use that method instead.",
-  "renamedMethod": "sendTwoFactorCodeForLoginWithMethod",
+  "methodName": "sendTwoFactorCodeForLoginWithMethod",
   "successResponse": "Void",
   "errorResponse": "Errors",
   "anonymous": true,
@@ -18,6 +16,14 @@
       ],
       "type": "urlSegment",
       "javaType": "String"
+    },
+    {
+      "name": "request",
+      "comments": [
+        "The Two Factor send request that contains all of the information used to send the Two Factor code to the user."
+      ],
+      "type": "body",
+      "javaType": "TwoFactorSendRequest"
     }
   ]
 }
