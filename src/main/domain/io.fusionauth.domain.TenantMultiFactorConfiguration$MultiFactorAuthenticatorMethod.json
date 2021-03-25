@@ -1,13 +1,13 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "MultiFactorAuthenticator",
+  "type" : "MultiFactorAuthenticatorMethod",
   "extends" : [ {
     "type" : "Enableable"
   } ],
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "MultiFactorAuthenticator"
+      "type" : "MultiFactorAuthenticatorMethod"
     } ]
   } ],
   "fields" : {

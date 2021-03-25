@@ -1,20 +1,17 @@
 {
   "packageName" : "io.fusionauth.domain",
-  "type" : "MultiFactorSMSTransport",
+  "type" : "MultiFactorEmailMethod",
   "extends" : [ {
     "type" : "Enableable"
   } ],
   "implements" : [ {
     "type" : "Buildable",
     "typeArguments" : [ {
-      "type" : "MultiFactorSMSTransport"
+      "type" : "MultiFactorEmailMethod"
     } ]
   } ],
   "fields" : {
-    "messengerId" : {
-      "type" : "UUID"
-    },
-    "sendOnLoginWhenPreferred" : {
+    "sendFirstCodeWithoutPrompt" : {
       "type" : "boolean"
     },
     "templateId" : {

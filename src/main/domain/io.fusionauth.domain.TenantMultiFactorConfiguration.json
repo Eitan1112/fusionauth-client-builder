@@ -10,13 +10,13 @@
   } ],
   "fields" : {
     "authenticator" : {
-      "type" : "MultiFactorAuthenticator"
+      "type" : "MultiFactorAuthenticatorMethod"
     },
     "email" : {
-      "type" : "MultiFactorEmailTransport"
+      "type" : "MultiFactorEmailMethod"
     },
     "sms" : {
-      "type" : "MultiFactorSMSTransport"
+      "type" : "MultiFactorSMSMethod"
     }
   }
 }

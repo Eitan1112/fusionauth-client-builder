@@ -63,6 +63,9 @@
     "lastUpdateInstant" : {
       "type" : "ZonedDateTime"
     },
+    "lastUsedTwoFactorMethod" : {
+      "type" : "String"
+    },
     "middleName" : {
       "type" : "String"
     },
@@ -83,9 +86,6 @@
       "typeArguments" : [ {
         "type" : "String"
       } ]
-    },
-    "twoFactorPreferredMethod" : {
-      "type" : "String"
     },
     "twoFactorRecoveryCodes" : {
       "type" : "List",
