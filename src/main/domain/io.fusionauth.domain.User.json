@@ -63,9 +63,6 @@
     "lastUpdateInstant" : {
       "type" : "ZonedDateTime"
     },
-    "lastUsedTwoFactorMethod" : {
-      "type" : "String"
-    },
     "middleName" : {
       "type" : "String"
     },
@@ -81,20 +78,8 @@
     "timezone" : {
       "type" : "ZoneId"
     },
-    "twoFactorMethods" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "String"
-      } ]
-    },
-    "twoFactorRecoveryCodes" : {
-      "type" : "List",
-      "typeArguments" : [ {
-        "type" : "String"
-      } ]
-    },
-    "twoFactorSecret" : {
-      "type" : "String"
+    "twoFactor" : {
+      "type" : "UserTwoFactorConfiguration"
     },
     "memberships" : {
       "type" : "List",

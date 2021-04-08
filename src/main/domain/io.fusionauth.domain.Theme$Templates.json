@@ -23,9 +23,6 @@
     "accountTwoFactorIndex" : {
       "type" : "String"
     },
-    "accountTwoFactorSend" : {
-      "type" : "String"
-    },
     "emailComplete" : {
       "type" : "String"
     },

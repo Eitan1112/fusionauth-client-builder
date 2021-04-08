@@ -12,7 +12,16 @@
     "code" : {
       "type" : "String"
     },
+    "email" : {
+      "type" : "String"
+    },
     "method" : {
+      "type" : "String"
+    },
+    "mobilePhone" : {
+      "type" : "String"
+    },
+    "name" : {
       "type" : "String"
     },
     "secret" : {
