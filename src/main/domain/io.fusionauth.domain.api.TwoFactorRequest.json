@@ -9,6 +9,9 @@
     } ]
   } ],
   "fields" : {
+    "authenticatorId" : {
+      "type" : "String"
+    },
     "code" : {
       "type" : "String"
     },
@@ -19,9 +22,6 @@
       "type" : "String"
     },
     "mobilePhone" : {
-      "type" : "String"
-    },
-    "name" : {
       "type" : "String"
     },
     "secret" : {

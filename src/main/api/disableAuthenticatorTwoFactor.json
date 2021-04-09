@@ -4,7 +4,7 @@
     "Disable Two Factor authentication for a user."
   ],
   "method": "delete",
-  "methodName": "disableTwoFactor",
+  "methodName": "disableAuthenticatorTwoFactor",
   "successResponse": "Void",
   "errorResponse": "Errors",
   "params": [
@@ -27,21 +27,12 @@
       "javaType": "String"
     },
     {
-      "name": "email",
+      "name": "code",
       "comments": [
         "The Two Factor code used verify the the caller knows the Two Factor secret."
       ],
       "type": "urlParameter",
-      "parameterName": "email",
-      "javaType": "String"
-    },
-    {
-      "name": "mobilePhone",
-      "comments": [
-        "The Two Factor code used verify the the caller knows the Two Factor secret."
-      ],
-      "type": "urlParameter",
-      "parameterName": "mobilePhone",
+      "parameterName": "code",
       "javaType": "String"
     },
     {
@@ -51,15 +42,6 @@
       ],
       "type": "urlParameter",
       "parameterName": "method",
-      "javaType": "String"
-    },
-    {
-      "name": "code",
-      "comments": [
-        "The Two Factor code used verify the the caller knows the Two Factor secret."
-      ],
-      "type": "urlParameter",
-      "parameterName": "code",
       "javaType": "String"
     }
   ]

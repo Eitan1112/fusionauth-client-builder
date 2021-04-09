@@ -9,7 +9,10 @@
     } ]
   } ],
   "fields" : {
-    "lastUsed" : {
+    "lastUsedId" : {
+      "type" : "String"
+    },
+    "lastUsedMethod" : {
       "type" : "String"
     },
     "methods" : {
