@@ -12,10 +12,19 @@
     "authenticator" : {
       "type" : "AuthenticatorConfiguration"
     },
+    "email" : {
+      "type" : "String"
+    },
     "id" : {
       "type" : "String"
     },
+    "lastUsed" : {
+      "type" : "boolean"
+    },
     "method" : {
+      "type" : "String"
+    },
+    "mobilePhone" : {
       "type" : "String"
     },
     "secret" : {

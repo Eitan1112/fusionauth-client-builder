@@ -9,12 +9,6 @@
     } ]
   } ],
   "fields" : {
-    "lastUsedId" : {
-      "type" : "String"
-    },
-    "lastUsedMethod" : {
-      "type" : "String"
-    },
     "methods" : {
       "type" : "List",
       "typeArguments" : [ {

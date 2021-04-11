@@ -12,6 +12,9 @@
     "code" : {
       "type" : "String"
     },
+    "email" : {
+      "type" : "String"
+    },
     "method" : {
       "type" : "String"
     },

@@ -18,39 +18,12 @@
       "javaType": "UUID"
     },
     {
-      "name": "authenticatorId",
+      "name": "methodId",
       "comments": [
-        "The Two Factor code used verify the the caller knows the Two Factor secret."
+        "The two-factor method identifier you wish to disable"
       ],
       "type": "urlParameter",
-      "parameterName": "authenticatorId",
-      "javaType": "String"
-    },
-    {
-      "name": "email",
-      "comments": [
-        "The Two Factor code used verify the the caller knows the Two Factor secret."
-      ],
-      "type": "urlParameter",
-      "parameterName": "email",
-      "javaType": "String"
-    },
-    {
-      "name": "mobilePhone",
-      "comments": [
-        "The Two Factor code used verify the the caller knows the Two Factor secret."
-      ],
-      "type": "urlParameter",
-      "parameterName": "mobilePhone",
-      "javaType": "String"
-    },
-    {
-      "name": "method",
-      "comments": [
-        "The Two Factor method used to verify the code."
-      ],
-      "type": "urlParameter",
-      "parameterName": "method",
+      "parameterName": "methodId",
       "javaType": "String"
     },
     {
