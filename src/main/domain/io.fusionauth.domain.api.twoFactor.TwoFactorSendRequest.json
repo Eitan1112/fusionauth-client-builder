@@ -18,6 +18,9 @@
     "method" : {
       "type" : "String"
     },
+    "methodId" : {
+      "type" : "String"
+    },
     "mobilePhone" : {
       "type" : "String"
     },
