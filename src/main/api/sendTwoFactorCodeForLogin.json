@@ -6,7 +6,7 @@
   "method": "post",
   "methodName": "sendTwoFactorCodeForLogin",
   "deprecated": "This method has been renamed to {{renamedMethod}}, use that method instead.",
-  "renamedMethod": "sendTwoFactorCodeForLoginWithMethod",
+  "renamedMethod": "sendTwoFactorCodeForLoginUsingMethod",
   "successResponse": "Void",
   "errorResponse": "Errors",
   "anonymous": true,

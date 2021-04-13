@@ -4,7 +4,7 @@
     "Send a Two Factor authentication code to allow the completion of Two Factor authentication."
   ],
   "method": "post",
-  "methodName": "sendTwoFactorCodeForLoginWithMethod",
+  "methodName": "sendTwoFactorCodeForLoginUsingMethod",
   "successResponse": "Void",
   "errorResponse": "Errors",
   "anonymous": true,
