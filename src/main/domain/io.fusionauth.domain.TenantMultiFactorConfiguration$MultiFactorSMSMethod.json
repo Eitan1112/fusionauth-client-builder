@@ -14,9 +14,6 @@
     "messengerId" : {
       "type" : "UUID"
     },
-    "sendFirstCodeWithoutPrompt" : {
-      "type" : "boolean"
-    },
     "templateId" : {
       "type" : "UUID"
     }

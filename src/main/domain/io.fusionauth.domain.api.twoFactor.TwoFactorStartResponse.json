@@ -12,6 +12,12 @@
     "code" : {
       "type" : "String"
     },
+    "methods" : {
+      "type" : "List",
+      "typeArguments" : [ {
+        "type" : "TwoFactorMethod"
+      } ]
+    },
     "twoFactorId" : {
       "type" : "String"
     }

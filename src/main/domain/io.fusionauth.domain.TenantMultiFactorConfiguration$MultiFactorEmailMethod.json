@@ -11,9 +11,6 @@
     } ]
   } ],
   "fields" : {
-    "sendFirstCodeWithoutPrompt" : {
-      "type" : "boolean"
-    },
     "templateId" : {
       "type" : "UUID"
     }
