@@ -5,7 +5,7 @@
   ],
   "method": "get",
   "methodName": "retrieveTwoFactorRecoveryCodes",
-  "successResponse": "RecoveryCodeResponse",
+  "successResponse": "TwoFactorRecoveryCodeResponse",
   "errorResponse": "Errors",
   "params": [
     {

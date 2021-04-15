@@ -5,7 +5,7 @@
   ],
   "method": "post",
   "methodName": "generateTwoFactorRecoveryCodes",
-  "successResponse": "RecoveryCodeResponse",
+  "successResponse": "TwoFactorRecoveryCodeResponse",
   "errorResponse": "Errors",
   "params": [
     {
